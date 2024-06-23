@@ -1,0 +1,109 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(54 74 81);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background-color: blanchedalmond; */
+}
+#part2{
+    width: 67%;
+    height: 100%;
+    background-color: rgb(28, 214, 56);
+    background-image: url(https://images.unsplash.com/photo-1564485377539-4af72d1f6a2f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.overlay{
+    
+    height: 100%;
+    width: 100%;
+    background-color: rgba(54, 74, 81, 0.264);
+    background-size: cover;
+}
+
+#part3{
+    width: 7%;
+    height: 100%;
+    /* background-color: rgb(86, 69, 218); */
+}
+
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 450px;
+    /* background-color: red; */
+    top: 50%;
+    left: 7%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 90px;
+    font-weight: 800px;
+    text-transform:uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 68px;
+    color: white;
+    letter-spacing: 2px;
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    right: 6%;
+    top: 50%;
+    transform: translate(0,-50%);
+    background-image: url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#vertical-text{
+    position: absolute;
+    right: -55%;
+    top: -6%;
+    transform: rotate(90deg);
+    transform-origin: 0% 0%;
+    /* background-color: red; */
+}
+#vertical-text h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 8px;
+    color: transparent;
+    
+}
+
+#nav{
+    position: absolute;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    left: 14%;
+    top: 5%;
+}
+
+#nav h5{
+    padding-left: 60px;
+    color: white;
+}
